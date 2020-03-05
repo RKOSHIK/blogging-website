@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="display: flex;">
+  <!-- <a class="vis" (click)="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> -->
+
+  <div class="col-lg-4 col-md-4 col-sm-4" style="padding: 0px; flex:1;">
+    <button class="navbar-toggler" type="button" (click)="myFunction()" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"> </span>
+    </button>
+    <div class="collapse" id="navbar">
+      <!-- <a class="navbar-brand" href="#"></a> -->
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0"style="flex:1">
+        <li class="nav-item" routerLinkActive= "active">
+          <a class="nav-link nav-text" routerLink="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" routerLinkActive= "active">
+          <a class="nav-link nav-text disabled" href="#">catagories</a>
+        </li>
+
+        <!-- <div class="dropdown">
+          <button class="dropbtn">catagories</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> -->
+        <li class="nav-item" routerLinkActive= "active">
+          <a class="nav-link nav-text disabled" routerLink="/collabration">brands</a>
+        </li>
+        <li class="nav-item" routerLinkActive= "active">
+          <a class="nav-link nav-text" routerLink="/contact">contact</a>
+        </li>
+        <li class="nav-item" routerLinkActive= "active">
+          <a class="nav-link nav-text" routerLink="/aboutme">about me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-md-1 col-sm-1" style="flex:1;">
+      <a class="search-icon" (click)="showSearch()">
+        <i class="fa fa-search fa-search-icon"></i>
+      </a>
+  </div>
+
+  <div class="col-lg-5 col-md-3 col-sm-4" style="flex:1;">
+    <!-- logo -->
+    <a href="" class="logo_h logo_h__img">
+      <img src="D:/workspace/blog-rocks/img.jpg" alt="Nat On The Rocks" title="logo-img"></a>
+  </div>
+
+  <div class="col-sm-3 col-md-4 col-lg-3" style="flex:1;">
+    <div class="social-custom">
+      <!-- social icons -->
+      <a target="_blank" class="fa fa-facebook" href="">
+      </a>
+      <a target="_blank" class="fa fa-twitter" href="">
+      </a>
+      <a target="_blank" class="fa fa-instagram" href="">
+      </a>
+      <a target="_blank" class="fa fa-envelope" href="">
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div id="myOverlay" class="overlay">
+  <span class="closebtn" (click)="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <form action="/action_page.php">
+      <input class="sb-search-input" type="text" placeholder="Type and Enter To Search" name="">
+    </form>
+  </div>
+</div>

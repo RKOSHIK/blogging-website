@@ -1,0 +1,236 @@
+.title-section h1, .heading-entrance h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 68px;
+    font-family: Playfair Display;
+    color: #222222;
+}
+.title-section h1 {
+    letter-spacing: -0.049em;
+}
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 62px;
+    font-family: Playfair Display;
+    color: #222222;
+}
+.h1{
+    font-size: 36px;
+}
+.h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h1{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+:-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.title-section, .heading-entrance {
+    margin: 40px auto;
+    text-align: center;
+}
+p {
+    margin: 0 0 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+    margin: 0 0 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.send-button{
+    cursor: pointer;
+        border-color: #222222;
+        background: #ffffff;
+        border: 1px solid #222; 
+        color: #222222;
+        text-transform: uppercase;
+        padding: 14px 26px;
+        font-size: 13px;
+        line-height: 1.42857;
+        font-weight: 600;
+}
+.send-button:hover {background-color:black;color:white}  
+.clearfix {
+    float: none;
+    clear: both;
+}
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #ffffff;
+    /* border: 1px solid #dddddd; */
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    display: inline-block;
+    padding: 12px 14px;
+    margin-bottom: 0px;
+    font-family: inherit;
+    font-size: 14px;
+    vertical-align: middle;
+}
+input {
+    outline: none;
+}
+input, textarea, .uneditable-input {
+    width: auto;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="text" i] {
+    padding: 1px 2px;
+}
+user agent stylesheet
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: rgb(255, 255, 255);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: rgb(118, 118, 118);
+    border-image: initial;
+}
+form textarea {
+    width: 100%;
+    height: 140px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 1em;
+     display: block; 
+}
+.wpcf7-not-valid-tip {
+    position: relative;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0px !important;
+    padding: 15px 8px !important;
+    width: auto !important;
+    height: auto !important;
+    border: 1px solid #EED3D7 !important;
+    color: #B94A48 !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.wpcf7-validation-errors {
+    background-color: #ffffff !important;
+    border-color: #EED3D7 !important;
+    color: #B94A48 !important;
+}
+div.wpcf7-response-output {
+    margin: 20px 0 !important;
+    padding: 8px 35px 8px 14px !important;
+    border: 1px solid #FBEED5 !important;
+    background-color: #ffffff;
+    color: #C09853;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+}
+div.wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+.wpcf7-display-none {
+    display: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
