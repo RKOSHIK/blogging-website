@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CollabrationComponent } from './collabration/collabration.component';
+import { VermmodaComponent } from './vermmoda/vermmoda.component';
 const appRoutes:Routes=[
   {path:'', component: BodyComponent, pathMatch:'full'},
   {path:'contact', component: ContactComponent  },
@@ -26,7 +27,8 @@ const appRoutes:Routes=[
     BodyComponent,
     ContactComponent,
     AboutmeComponent,
-    CollabrationComponent
+    CollabrationComponent,
+    VermmodaComponent
   ],
   imports: [
     BrowserModule,
